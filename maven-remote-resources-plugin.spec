@@ -1,6 +1,6 @@
 Name:           maven-remote-resources-plugin
 Version:        1.4
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Maven Remote Resources Plugin
 
 Group:          Development/Libraries
@@ -82,6 +82,9 @@ rm -f src/main/resources/META-INF/plexus/components.xml
 %doc DEPENDENCIES LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-7
+- Mass rebuild 2013-12-27
+
 * Thu Aug 22 2013 Michal Srb <msrb@redhat.com> - 1.4-6
 - Migrate away from mvn-rpmbuild (Resolves: #997483)
 
